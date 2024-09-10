@@ -45,14 +45,19 @@ Você deverá criar diversas consultas, com o objetivo de retornar os dados a se
 ## 1 - Buscar o nome e ano dos filmes
 
 ![Exercicio 1](Imagens/1.png)
+Select nome, ano from filmes;
 
 ## 2 - Buscar o nome e ano dos filmes, ordenados por ordem crescente pelo ano
 
 ![Exercicio 2](Imagens/2.png)
 
+Select nome, ano from filmes order by ano;
+
 ## 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duração
 
 ![Exercicio 3](Imagens/3.png)
+
+Select nome, ano, duracao from filmes where upper(nome) like '%FUTURO%';
 
 ## 4 - Buscar os filmes lançados em 1997
 
